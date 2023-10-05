@@ -4,7 +4,6 @@
 
 config TOUCHSCREEN_FTS
 	bool "Focaltech Touchscreen"
-	depends on DRM
 	default n
 	help
 	  Say Y here if you have Focaltech touch panel.
